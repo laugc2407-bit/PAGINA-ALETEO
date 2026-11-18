@@ -37,9 +37,9 @@ EXT_IMG = {".jpg", ".jpeg", ".png", ".webp", ".gif"}
 #    Para tener más videos, copia una línea; para menos, bórrala.
 #    Mientras "url" esté vacío se ve un recuadro de reemplazo.
 VIMEO_REGISTRO = [
-    {"url": "", "titulo": "Registro 01", "texto": "Video de documentación del proyecto ALETEO."},
-    {"url": "", "titulo": "Registro 02", "texto": "Video de documentación del proyecto ALETEO."},
-    {"url": "", "titulo": "Registro 03", "texto": "Video de documentación del proyecto ALETEO."},
+    {"https://player.vimeo.com/video/1247820679": "", "titulo": "Registro 01",
+    {"https://player.vimeo.com/video/1247820678": "", "titulo": "Registro 02", 
+    {"https://player.vimeo.com/video/1247820681": "", "titulo": "Registro 03", 
 ]
 
 # 2) (Opcional) Videos en bucle para los otros espacios visuales.
