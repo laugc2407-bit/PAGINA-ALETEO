@@ -36,11 +36,22 @@ EXT_IMG = {".jpg", ".jpeg", ".png", ".webp", ".gif"}
 #    o el de video oculto (https://vimeo.com/123456789/abcdef1234).
 #    Para tener más videos, copia una línea; para menos, bórrala.
 #    Mientras "url" esté vacío se ve un recuadro de reemplazo.
+
 VIMEO_REGISTRO = [
-    {"https://player.vimeo.com/video/1247820679": "", "titulo": "Registro 01"},
-    {"https://player.vimeo.com/video/1247820678": "", "titulo": "Registro 02"},
-    {"https://player.vimeo.com/video/1247820681": "", "titulo": "Registro 03"},
+    {
+        "url": "https://player.vimeo.com/video/1247820679",
+        "titulo": "Registro 01"
+    },
+    {
+        "url": "https://player.vimeo.com/video/1247820678",
+        "titulo": "Registro 02"
+    },
+    {
+        "url": "https://player.vimeo.com/video/1247820681",
+        "titulo": "Registro 03"
+    },
 ]
+
 
 # 2) (Opcional) Videos en bucle para los otros espacios visuales.
 #    Vacío = se usa el visual por defecto (o el archivo de la carpeta media/).
